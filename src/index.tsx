@@ -36,7 +36,7 @@ async function initContract() {
   const contract = await new nearAPI.Contract(
     walletConnection.account(),
 
-    "nftmarket.powertofly11.testnet",
+    "nftmarket.powertofly22.testnet",
     {
       viewMethods: [
         "get_nfts_by_account",
