@@ -1,0 +1,52 @@
+.parent-div{
+    position: absolute;
+    width:95%; 
+    height:50%;
+    top: 25%;
+    left: 5%
+}
+
+.parent-div .title-bold {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.description{
+    font-size: 25px;
+}
+
+.button-div{
+    float:left;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+
+.selected{
+    background-color:#005FFE;
+    color: #E5E2E7;
+}
+.not-selected{
+    background-color:#23242A;
+    color: #656D72;
+}
+
+.button-div-start{
+    margin-top: 150px;
+}
+
+.start-button{
+    height: 50px;
+    font-size: 21px;
+}
+
+@media only screen and (max-width: 768px) {
+    .button-div-start{
+        margin-top: 20px;
+    }
+    .parent-div{
+        position: absolute;
+        width:95%;
+        top: 2%;
+        left: 5%
+    }
+}

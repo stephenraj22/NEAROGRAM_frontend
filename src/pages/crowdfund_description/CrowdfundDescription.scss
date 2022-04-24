@@ -1,0 +1,34 @@
+.root-card-cfdesc {
+  width: 600px;
+}
+
+.contribute-button {
+  margin-top: 20px;
+  margin-left: 70px;
+  font-size: 17px !important;
+  font-weight: 600 !important;
+  width: 200px !important;
+  height: 40px !important;
+  background-color: #005ffe;
+}
+
+.span-transaction-cfdesc {
+  margin-top: 5px;
+  color: #656d72;
+  font-size: 20px;
+  font-weight: 600;
+  @media only screen and (max-width: 768px) {
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+}
+
+.closed-button {
+  margin-top: 30px;
+  margin-left: 70px;
+  font-size: 17px !important;
+  font-weight: 600 !important;
+  width: 200px !important;
+  height: 40px !important;
+  background-color: #656d72;
+}
