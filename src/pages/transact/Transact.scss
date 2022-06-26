@@ -1,0 +1,171 @@
+.root-card-transact {
+  width: 850px;
+  height: 455px;
+  @media only screen and (max-width: 768px) {
+    width: 100%;
+    height: 100%;
+    border-radius: 0% !important;
+  }
+}
+
+.root-div-transact {
+  display: flex;
+  @media only screen and (max-width: 768px) {
+    display: block;
+  }
+}
+.select-wallet {
+  width: 398px;
+  @media only screen and (max-width: 768px) {
+    width: 100%;
+  }
+}
+
+.input-div {
+  width: 398px;
+  @media only screen and (max-width: 768px) {
+    width: 100%;
+  }
+}
+.amount-input-transact {
+  margin-left: 50px;
+  @media only screen and (max-width: 768px) {
+    display: block;
+    width: 60px;
+    margin: 10px auto;
+    padding: 3px;
+  }
+}
+.span-err {
+  color: #656d72;
+  width: 300px;
+  font-size: 15px;
+  font-weight: 600;
+  @media only screen and (max-width: 768px) {
+    display: block;
+    width: 200px;
+  }
+}
+.error-transact {
+  margin-left: 35px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  @media only screen and (max-width: 768px) {
+    margin-left: 0px auto;
+    margin-bottom: 0px auto;
+    margin-top: 20px;
+  }
+}
+.email-input-transact {
+  margin-left: 50px;
+  margin-top: 20px;
+  @media only screen and (max-width: 768px) {
+    display: block;
+    width: 60px;
+    margin: 10px auto;
+    margin-top: 20px;
+    padding: 3px;
+  }
+}
+.space-transact {
+  margin-top: 150px;
+  @media only screen and (max-width: 768px) {
+    margin-top: 50px;
+  }
+}
+.vertical-line {
+  border-left: 2px solid #656d72;
+  height: 400px;
+  margin-top: 15px;
+  @media only screen and (max-width: 768px) {
+    border-left: 0px solid #656d72;
+    height: 0px;
+    margin-top: 0px;
+  }
+}
+
+.title-bold-transact {
+  font-weight: 700;
+  font-size: 35px;
+  margin-left: 130px;
+  @media only screen and (max-width: 768px) {
+    display: block;
+    width: 140px;
+    margin: 0px auto;
+    padding: 3px;
+  }
+}
+
+body {
+  background-color: #23242a;
+}
+.pay-button {
+  background-color: #005ffe;
+  color: #e5e2e7;
+  margin-top: 60px;
+  margin-left: 100px;
+  @media only screen and (max-width: 768px) {
+    display: block;
+    width: 60px;
+    margin: 10px auto;
+    margin-top: 60px;
+    padding: 3px;
+  }
+}
+
+.span-title {
+  color: #656d72;
+  font-size: 25px;
+  font-weight: 600;
+  margin-left: 100px;
+  @media only screen and (max-width: 768px) {
+    display: block;
+    width: 300px;
+    margin: 10px auto;
+    margin-top: 60px;
+    padding: 3px;
+  }
+}
+
+.span-wallet {
+  color: #e5e2e7;
+  font-size: 21px;
+  font-weight: 600;
+  margin-top: 100px;
+  margin-left: 120px;
+  @media only screen and (max-width: 768px) {
+    display: block;
+    width: 200px;
+    font-size: 17px;
+    margin: 10px auto;
+    margin-top: 10px;
+    padding: 3px;
+  }
+}
+
+.span-balance {
+  color: #656d72;
+  font-size: 15px;
+  font-weight: 600;
+  margin-left: 130px;
+  @media only screen and (max-width: 768px) {
+    display: block;
+    width: 200px;
+    margin: 10px auto;
+    margin-top: 10px;
+    padding: 3px;
+  }
+}
+
+.list-item {
+  color: #656d72;
+  margin-left: 120px;
+  font-weight: bold;
+  @media only screen and (max-width: 768px) {
+    display: block;
+    width: 200px;
+    margin: 10px auto;
+    margin-top: 10px;
+    padding: 3px;
+  }
+}

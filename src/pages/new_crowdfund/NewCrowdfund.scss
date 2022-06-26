@@ -1,0 +1,33 @@
+.root-card-createcf {
+  width: 400px;
+  height: 580px;
+  margin-left: 80px;
+  padding: 50px;
+}
+
+.title-bold-createcf {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.input-createcf {
+  margin-top: 20px;
+}
+.input-createcfdate {
+  margin-top: 20px;
+  color: #005ffe;
+}
+body {
+  overflow: hidden;
+}
+.create-button-createcf {
+  margin-top: 50px;
+  font-weight: 600 !important;
+  width: 200px !important;
+  height: 47px !important;
+  background-color: #005ffe;
+}
+
+.err-createcf {
+  color: #656d72;
+}
